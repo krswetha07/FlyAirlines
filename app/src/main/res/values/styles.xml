@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for seat cards -->
+    <style name="SeatCard">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">#CCCCCC</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="checkedIcon">@null</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="rippleColor">#33000000</item>
+        <item name="checkedIconTint">@color/primary</item>
+        <item name="android:checkable">true</item>
+    </style>
+
+    <!-- Style for seat text -->
+    <style name="SeatText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources> 
